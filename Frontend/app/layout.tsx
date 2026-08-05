@@ -6,6 +6,7 @@ import { WishlistProvider } from "@/contexts/WishlistContext";
 import { AddressProvider } from "@/contexts/AddressContext";
 import "./globals.css";
 import Banner from "@/components/Banner";
+import { AuthProvider } from "@/contexts/AuthContext";
 
 const outfit = Outfit({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
         <body className={`${outfit.className} antialiased bg-white text-slate-800`}>
+        <AuthProvider>
         <CartProvider>
           <WishlistProvider>
             <AddressProvider>
@@ -30,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </AddressProvider>
           </WishlistProvider>
         </CartProvider>
+        </AuthProvider>
       </body>
     </html>
   );
