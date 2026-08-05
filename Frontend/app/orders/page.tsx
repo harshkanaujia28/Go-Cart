@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useApi } from "@/contexts/api-context";
 import { Header } from "@/components/header";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import clsx from "clsx";

@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState } from "react"
 import { Header } from "@/components/header"
-import Footer from "@/components/footer"
+import Footer from "@/components/Footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"

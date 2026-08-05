@@ -4,7 +4,7 @@ import { useEffect, useState, useMemo } from "react";
 import { useParams } from "next/navigation";
 import { useApi } from "@/contexts/api-context";
 import { Header } from "@/components/header";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 import { Calendar, CheckCircle, Package, Truck, XCircle } from "lucide-react";
 import Link from "next/link";
 
