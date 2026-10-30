@@ -9,7 +9,7 @@ export default function WhyUs() {
         <div className="relative w-full" style={{ paddingTop: '56.25%' }}> 
           {/* 16:9 aspect ratio container */}
           <Image
-            src="/Hezire-website-banner2560x1280px-Hband-AI.webp"
+            src="/e544393b-b0d6-4d24-a99d-988c860aadaf.png"
             alt="Bridal Lehenga"
             fill
             className="object-contain"
